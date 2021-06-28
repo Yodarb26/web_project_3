@@ -1,0 +1,9 @@
+.photo-grid__item {
+    text-align: center;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.photo-grid__item:hover {
+    opacity: 0.2;
+}

@@ -1,0 +1,11 @@
+.cover__background {
+    padding-bottom: 92px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cover__background:hover {
+    opacity: 0.2;
+}

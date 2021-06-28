@@ -1,0 +1,10 @@
+@import url(./__lang-link/header__lang-link.css);
+
+.header {
+    display: flex;
+    justify-items: right;
+    flex-direction: row-reverse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 34px;
+}
