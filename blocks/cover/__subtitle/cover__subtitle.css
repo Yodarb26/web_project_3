@@ -2,9 +2,7 @@
     position: absolute;
     width: 320px;
     margin: 80px 432px 0 432px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
+    font-family: "Inter";
     font-size: 18px;
     line-height: 22px;
     /* or 122% */

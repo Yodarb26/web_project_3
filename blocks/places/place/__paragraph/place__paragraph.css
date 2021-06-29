@@ -1,8 +1,6 @@
 .place__paragraph {
     width: 100%;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
+    font-family: "Inter";
     font-size: 18px;
     line-height: 163%;
     /* or 29px */

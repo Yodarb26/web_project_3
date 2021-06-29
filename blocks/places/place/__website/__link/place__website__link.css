@@ -1,8 +1,6 @@
 .place__website__link {
     width: 464px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
+    font-family: "Inter";
     font-size: 18px;
     line-height: 22px;
     /* identical to box height, or 122% */
