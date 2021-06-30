@@ -1,4 +1,4 @@
-.place__website__url-heading {
+.place__url-heading {
     font-family: "Inter";
     font-size: 12px;
     line-height: 170%;
@@ -6,6 +6,6 @@
     letter-spacing: 0.2em;
 }
 
-.place__website__url-heading:hover {
+.place__url-heading:hover {
     opacity: 0.2;
 }
