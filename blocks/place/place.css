@@ -6,6 +6,7 @@
 
 .place {
     display: grid;
+    color: white;
     grid-template-columns: 50% 1fr;
     grid-gap: 40px;
     margin: 0 148px 0px 148px;
