@@ -1,8 +1,12 @@
+@import url(./__element/page__element.css);
+
+
 .page {
-    position: relative;
-    max-width: 1184px;
+    background: #2A2C2F;
+    /*position: relative;*/
+    margin-left: auto;
+    margin-right: auto;
     height: auto;
-    margin: 0 auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
@@ -10,5 +14,3 @@
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
 }
-
-

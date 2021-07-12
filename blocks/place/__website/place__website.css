@@ -1,9 +1,0 @@
-@import url(./__link/place__link.css);
-@import url(./__url-heading/place__url-heading.css);
-
-.place__website {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 0;
-    width: 456px;
-}

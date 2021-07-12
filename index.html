@@ -3,24 +3,28 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="vendor/normalize.css" />
         <link rel="stylesheet" href="pages/index.css" />
+        <link rel="stylesheet" href="vendor/normalize.css" />
         <title>From Portland to Portland</title>
     </head>
 
-    <body class="root">
-        <div class="page">
-            <img class="logo" src="./images/logo/logo.png" alt="logo" />
-            <header class="header">
-                <a href="" class="header__lang-link">Es</a>
-                <a href="" class="header__lang-link">En</a>
+    <body class="page">
+        <div class="page__wrapper">
+            <header class="header container">
+                <img class="logo" src="./images/logo/logo.png" alt="logo" />
+                <nav>
+                    <ul class="languages">
+                        <li class="languages__link"><a class="header__lang-link" href="#">Es</a></li>
+                        <li class="languages__link"><a class="header__lang-link" href="#">En</a></li>
+                    </ul>
+                </nav>
             </header>
 
-            <section class="lead">
-                <h1 class="lead__title">From Portland to Portland</h1>
-                <p class="lead__subtitle">An epic bicycle journey from Portland, ME. to Portland, OR</p>
-                <img class="lead__image" src="./images/kalegin-michail-179870-unsplash.png" alt="image" />
-                <p class="lead__caption">Your journey starts here</p>
+            <section="lead">
+            <h1 class="lead__title">From Portland to Portland</h1>
+            <p class="lead__subtitle">An epic bicycle journey from Portland, ME. to Portland, OR</p>
+            <img class="lead__image" src="./images/kalegin-michail-179870-unsplash.png" alt="image" />
+            <p class="lead__caption">Your journey starts here</p>
             </section>
 
             <section class="intro">
@@ -58,8 +62,8 @@
                 <article class="place">
                     <h2 class="place__title">Maine</h2>
                     <div class="place__website">
-                        <p class="place__url-heading">URL</p>
-                        <a class="place__link" href="https://global.llbean.com">global.llbean.com</a>
+                        <p class="place__website__url-heading">URL</p>
+                        <a class="place__website__link" href="https://global.llbean.com">global.llbean.com</a>
                     </div>
                     <img class="place__image" src="./images/__image-4.png" alt="1" />
                     <div>
@@ -78,8 +82,8 @@
                 <article class="place">
                     <h2 class="place__title">New Hampshire</h2>
                     <div class="place__website">
-                        <p class="place__url-heading">URL</p>
-                        <a class="place__link" href="https://www.timberland.com">timberland.com</a>
+                        <p class="place__website__url-heading">URL</p>
+                        <a class="place__website__link" href="https://www.timberland.com">timberland.com</a>
                     </div>
                     <img class="place__image" src="./images/__image-3.png" alt="2" />
                     <div>
@@ -99,8 +103,8 @@
                 <article class="place">
                     <h2 class="place__title">New York</h2>
                     <div class="place__website">
-                        <p class="place__url-heading">URL</p>
-                        <a class="place__link" href="https://www.ge.com">ge.com</a>
+                        <p class="place__website__url-heading">URL</p>
+                        <a class="place__website__link" href="https://www.ge.com">ge.com</a>
                     </div>
                     <img class="place__image" src="./images/__image-2.png" alt="3" />
                     <div>
@@ -118,8 +122,8 @@
                 <article class="place">
                     <h2 class="place__title">Erie, PA</h2>
                     <div class="place__website">
-                        <p class="place__url-heading">URL</p>
-                        <a class="place__link" href="https://fws.gov">fws.gov</a>
+                        <p class="place__website__url-heading">URL</p>
+                        <a class="place__website__link" href="https://fws.gov">fws.gov</a>
                     </div>
                     <img class="place__image" src="./images/__image-1.png" alt="4" />
                     <div>
@@ -138,8 +142,8 @@
                 <article class="place">
                     <h2 class="place__title">Ohio</h2>
                     <div class="place__website">
-                        <p class="place__url-heading">URL</p>
-                        <a class="place__link" href="https://www.cedarpoint.com">cedarpoint.com</a>
+                        <p class="place__website__url-heading">URL</p>
+                        <a class="place__website__link" href="https://www.cedarpoint.com">cedarpoint.com</a>
                     </div>
                     <img class="place__image" src="./images/__image.png" alt="5" />
                     <div>
@@ -152,13 +156,14 @@
                         <p class="place__paragraph place__paragraph:last-child">The cost of a daily ticket: about $100.</p>
                     </div>
                 </article>
+            </section>
 
-                <div class="cover">
-                    <div class="cover__background">
-                        <img src="./images/__background.png" alt="Historic route 66" />
-                        <p class="cover__title">Historic Route 66</p>
-                        <p class="cover__subtitle">The Main Street of America from Santa Monica, Cal. to Chicago, Ill.</p>
-                    </div>
+
+            <section class="route">
+                <div class="route__inner">
+                <!--<img src="./images/background.jpg" alt="Historic route 66" />-->
+                <h2>Historic route 66</h2>
+                <p>The Main Street of America from Santa Monica, Cal. to Chicago, Ill.</p>
                 </div>
             </section>
 

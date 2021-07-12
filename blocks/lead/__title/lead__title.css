@@ -1,11 +1,10 @@
 .lead__title {
-    width: 720px;
     left: 280px;
     top: 136px;
-    margin: 0 auto;
     padding-top: 58px;
     padding-bottom: 32px;
-    font-family: "Inter";
+    font-family: Inter;
+    font-style: normal;
     font-weight: 900;
     font-size: 96px;
     line-height: 100px;
