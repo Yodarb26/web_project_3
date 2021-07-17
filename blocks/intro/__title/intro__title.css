@@ -12,3 +12,50 @@
     /* or 107% */
     color: #ffffff;
 }
+
+
+@media only screen and (max-width: 1024px){
+
+    .intro__title {
+        width: 690px;
+        height: 116px;
+        margin: auto;
+        margin-left: 48px;
+        margin-right: 286px;
+        top: 1182px;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 768px){
+
+    .intro__title {
+        width: 720px;
+        height: 116px;
+        margin: auto;
+        margin-left: 24px;
+        margin-right: 24px;
+        top: 1078px;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 320px){
+
+    .intro__title {
+        width: 288px;
+        height: 105px;
+        padding-top: 86px;
+        padding-bottom: 40px;
+        margin-top: 0;
+        margin-left: 16px;
+        margin-right: 16px;
+        top: 576px;
+        align-items: center;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

@@ -1,42 +1,42 @@
 @import url(./__inner/route__inner.css);
-@import url(./overlay/route__overlay.css);
+@import url(./__overlay/route__overlay.css);
+@import url(./__title/route__title.css);
+@import url(./__subtitle/route__subtitle.css);
 
 
 .route {
   display: flex;
   width:100%;
   font-family: Inter;
-  background-image: url('../../images/background.jpg');
+  background-image: url('../../images/__background.jpg');
   min-height: 740px;
   /*background-repeat: no-repeat;
   background-position: center;*/
   background-size: cover;
-  position: relative;
+  position: relative;margin-bottom: 94px;
 
 }
 
 .route:hover .route__overlay {
-  opacity: 0.8%;
+  opacity: 0.8;
 }
 
-/*
-.route__inner{
-  margin: auto;
-  text-align: center;
-  color: white;
+@media only screen and (max-width: 768px){
 
-}*/
+  .route {
+    margin-top: 89px;
+      
+      }
 
-/*
-.route__overlay{
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #2A2C2F;
-  opacity: 0.3%;
-  transition: opacity 300ms;
-}*/
+}
+
+@media only screen and (max-width: 320px){
+  .route {
+    margin-top: 64px;
+    display: flex;
+    width: 100%;
+max-height: 200px;
+left: 0px;
+
+  }
+}

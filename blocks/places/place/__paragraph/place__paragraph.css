@@ -12,3 +12,29 @@
 .place__paragraph:last-child {
     margin-bottom: 0;
 }
+
+
+@media only screen and (max-width:768px){
+
+    .place__paragraph {
+        width: 352px;
+        margin-left: 0px;
+        margin-right: 0px;
+        
+    }
+    
+}
+
+
+@media only screen and (max-width:320px){
+
+    .place__paragraph {
+        width: 288px;
+        margin-left: 16px;
+        margin-right: 16px;
+        font-size: 16px;
+        line-height: 163%;
+        
+    }
+    
+}

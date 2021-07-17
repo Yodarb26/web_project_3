@@ -1,0 +1,54 @@
+.route__subtitle {
+
+    max-width: 320px;
+    height: 66px;
+    margin: 0 432px 32px 432px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    align-items: center;
+
+/* or 122% */
+    text-align: center;
+
+}
+
+@media only screen and (max-width: 1024px){
+
+    .route__subtitle {
+        max-width: 320px;
+        height: 66px;
+        margin: 0 352px 0 352px;
+    
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+
+    .route__subtitle {
+        max-width: 320px;
+        height: 66px;
+        margin: 0 224px 0 224px;
+    
+    }
+
+}
+
+
+@media only screen and (max-width: 320px){
+
+    .route__subtitle {
+        width: 288px;
+height: 48px;
+margin-left: 16px;
+margin-right: 16px;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+
+    }
+
+}

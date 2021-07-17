@@ -5,7 +5,61 @@
     top: 504px;
 }
 
-
 .lead__image:hover{
     opacity: 0.2;
+}
+
+
+@media only screen and (max-width: 1024px){
+
+    .lead__image {
+        width: 928px;
+        height: 580px;
+        padding-right: 48px;
+        padding-left: 48px;
+        top: 488px;
+        align-items: center;
+    }
+    
+    
+    .lead__image:hover{
+        opacity: 0.2;
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+
+    .lead__image {
+        width: 768px;
+        height: 480px;
+        padding-right: 0;
+        padding-left: 0;
+        top: 488px;
+        align-items: center;
+    }
+    
+    
+    .lead__image:hover{
+        opacity: 0.2;
+    }
+
+}
+
+@media only screen and (max-width: 320px){
+
+    .lead__image {
+        width: 320px;
+        height: 200px;
+        padding-right: 0;
+        padding-left: 0;
+        top: 290px;
+        align-items: center;
+    }
+    
+    
+    .lead__image:hover{
+        opacity: 0.2;
+    }
+
 }
