@@ -14,37 +14,29 @@
 }
 
 @media only screen and (max-width: 1024px){
-
     .intro__list {
-    margin-left: 48px;
-    margin-right: 286px;
-    
+        margin-left: 48px;
+        margin-right: 286px;
     }
-
 }
 
 @media only screen and (max-width: 768px){
-
     .intro__list {
-    margin-left: 24px;
-    margin-right: 24px;
-    
+        margin-left: 24px;
+        margin-right: 24px;
     }
-
 }
 
 @media only screen and (max-width: 320px){
 
     .intro__list {
-    margin-left: 16px;
-    margin-right: 16px;
-    width: 288px;
-    height: 72px;
-    font-size: 12px;
-    line-height: 18px;
-    margin-top: 34px;
-    margin-bottom: 64px;
-    
+        margin-left: 16px;
+        margin-right: 16px;
+        width: 288px;
+        height: 72px;
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 34px;
+        margin-bottom: 64px;
     }
-
 }

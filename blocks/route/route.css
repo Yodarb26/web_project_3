@@ -5,47 +5,42 @@
 
 
 .route {
-  display: flex;
-  width:100%;
-  font-family: Inter;
-  background-image: url('../../images/__background.jpg');
-  height: 740px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  /*position: relative;*/
-  margin-bottom: 94px;
-
-}
+    display: flex;
+    width:100%;
+    font-family: Inter;
+    background-image: url('../../images/__background.jpg');
+    height: 740px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 94px;
+  }
 
 .route:hover .route__overlay {
-  opacity: 0.8;
-}
+    opacity: 0.2;
+  }
 
 @media only screen and (max-width: 768px){
-
   .route {
-    margin-top: 89px;
-    width: 768px;
-    height: 480px;
-      
-      }
+      margin-top: 89px;
+      width: 768px;
+      height: 480px;
+    }
 
       .route:hover .route__overlay {
-        opacity: 0.8;
+        opacity: 0.2;
       }
-
 }
 
 @media only screen and (max-width: 320px){
   .route {
-    margin-top: 64px;
-    width: 100%;
-    max-width: 320px;
-    max-height: 200px;
+      margin-top: 64px;
+      width: 100%;
+      max-width: 320px;
+      max-height: 200px;
   }
-
   .route:hover .route__overlay {
-    opacity: 0.8;
+    opacity: 0.2;
   }
 }

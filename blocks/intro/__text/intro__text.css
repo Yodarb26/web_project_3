@@ -14,30 +14,26 @@
 
 
 @media only screen and (max-width: 1024px){
-
     .intro__text {
-    margin-left: 48px;
-    margin-right: 286px;
-    width: 690px;
+        margin-left: 48px;
+        margin-right: 286px;
+        width: 690px;
     }
-
 }
 
 @media only screen and (max-width: 768px){
-
     .intro__text {
-    margin-left: 24px;
-    margin-right: 24px;
-    width: 720px;
+        margin-left: 24px;
+        margin-right: 24px;
+        width: 720px;
     }
-
 }
 
 @media only screen and (max-width: 320px){
         .intro__text {
-        margin-left: 16px;
-        margin-right: 16px;
-        width: 288px;
-        padding-bottom: 0;
+            margin-left: 16px;
+            margin-right: 16px;
+            width: 288px;
+            padding-bottom: 0;
         }
 }

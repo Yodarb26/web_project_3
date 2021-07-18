@@ -10,12 +10,9 @@
     color: #ffffff;
 }
 
-
 @media only screen and (max-width: 768px){
-
     .place__title {
         max-width: 340px;
-    
         flex: 1 1 100%;
         margin: 0;
         font-family: Inter;
@@ -26,11 +23,9 @@
         /* identical to box height, or 106% */
         color: #ffffff;
     }
-
 }
 
 @media only screen and (max-width: 320px){
-
     .place__title {
         max-width: 288px;
         flex: 1 1 100%;
@@ -40,5 +35,4 @@
         /* identical to box height, or 106% */
         color: #ffffff;
     }
-
 }

@@ -15,13 +15,12 @@
 
 @media only screen and (max-width:320px){
     .place__website__link{
-max-width: 288px;
-max-height: 12px;
-margin-left: 16px;
-font-size: 18px;
-line-height: 22px;
-
-/* identical to box height, or 122% */
-text-decoration-line: underline;
-}
+        max-width: 288px;
+        max-height: 12px;
+        margin-left: 16px;
+        font-size: 18px;
+        line-height: 22px;
+        /* identical to box height, or 122% */
+        text-decoration-line: underline;
+    }
 }

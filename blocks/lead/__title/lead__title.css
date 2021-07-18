@@ -17,7 +17,6 @@
 
 
 @media only screen and (max-width: 1024px){
-
     .lead__title {
         left: 152px;
         top: 128px;
@@ -37,7 +36,6 @@
 }
 
 @media only screen and (max-width: 768px){
-
     .lead__title {
         left: 24px;
         top: 128px;
@@ -57,7 +55,6 @@
 }
 
 @media only screen and (max-width: 320px){
-
     .lead__title {
         left: 16px;
         top: 106px;

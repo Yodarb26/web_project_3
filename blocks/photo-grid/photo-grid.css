@@ -1,7 +1,6 @@
 @import url(./__item/photo-grid__item.css);
 
 .photo-grid {
-
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
   grid-template-rows: minmax(213px, auto);
@@ -10,12 +9,10 @@
   grid-gap: 16px;
   margin-left: 0;
   margin-right: 0;
-
 }
 
 
 @media only screen and (max-width: 1024px){
-
   .photo-grid {
     margin-left: 48px;
     margin-right: 48px;
@@ -24,7 +21,6 @@
 
 
 @media only screen and (max-width: 768px){
-
   .photo-grid {
     margin-left: 24px;
     margin-right: 24px;

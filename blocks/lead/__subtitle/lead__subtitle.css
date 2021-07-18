@@ -19,9 +19,7 @@
 
 
 @media only screen and (max-width: 1024px){
-
     .lead__subtitle {
-        
         max-width: 620px;
         height: 72px;
         margin-right: 202px;
@@ -36,13 +34,11 @@
         /* or 120% */
         text-align: center;
         color: #ffffff;
-}   
+    }   
 }
 
 @media only screen and (max-width: 768px){
-
     .lead__subtitle {
-        
         max-width: 620px;
         height: 72px;
         margin-right: 74px;
@@ -57,13 +53,11 @@
         /* or 120% */
         text-align: center;
         color: #ffffff;
-}   
+    }   
 }
 
 @media only screen and (max-width: 320px){
-
     .lead__subtitle {
-        
         max-width: 288px;
         height: 40px;
         margin-right: 16px;
@@ -78,5 +72,5 @@
         /* or 120% */
         text-align: center;
         color: #ffffff;
-}   
+    }   
 }
