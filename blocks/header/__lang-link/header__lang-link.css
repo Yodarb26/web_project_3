@@ -8,7 +8,6 @@
     /* identical to box height, or 117% */
     text-decoration: underline;
     color:white;
-    /*margin: 12px 0 auto 18px;*/
 }
 
 .header__lang-link:hover {
@@ -25,6 +24,7 @@
         top: 30px;
         font-size: 18px;
         line-height: 20px;
+        
         
         }
 

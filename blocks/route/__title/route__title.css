@@ -35,8 +35,10 @@ line-height: 76px;
     .route__title {
         width: 288px;
 height: 35px;
+margin-top: 51px;
 margin-left: 16px;
 margin-right: 16px;
+margin-bottom: 0;
 font-size: 32px;
 line-height: 35px;
 text-align: center;
