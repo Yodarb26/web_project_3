@@ -2,7 +2,7 @@
     max-width: 320px;
     height: 66px;
     margin: 0 432px 32px 432px;
-    font-family: Inter;
+    font-family: 'Inter';
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -30,7 +30,6 @@
 
 
 @media only screen and (max-width: 320px){
-
     .route__subtitle {
         width: 288px;
         height: 48px;

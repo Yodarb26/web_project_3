@@ -7,7 +7,7 @@
 .route {
     display: flex;
     width:100%;
-    font-family: Inter;
+    font-family: 'Inter';
     background-image: url('../../images/__background.jpg');
     height: 740px;
     background-repeat: no-repeat;
