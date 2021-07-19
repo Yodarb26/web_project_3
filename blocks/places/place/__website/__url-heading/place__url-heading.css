@@ -1,4 +1,4 @@
-.place__website__url-heading {
+.place__url-heading {
     font-family: 'Inter';
     font-style: normal;
     font-weight: normal;
@@ -8,12 +8,12 @@
     letter-spacing: 0.2em;
 }
 
-.place__website__url-heading:hover {
+.place__url-heading:hover {
     opacity: 0.2;
 }
 
 @media only screen and (max-width:320px){
-    .place__website__url-heading{
+    .place__url-heading{
         max-width: 288px;
         max-height: 12px;
         margin-left: 16px;

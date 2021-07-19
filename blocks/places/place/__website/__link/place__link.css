@@ -1,4 +1,4 @@
-.place__website__link {
+.place__link {
     font-family: 'Inter';
     font-style: normal;
     font-weight: normal;
@@ -9,12 +9,12 @@
     color: #ffffff;
 }
 
-.place__website__link:hover {
+.place__link:hover {
     opacity: 0.2;
 }
 
 @media only screen and (max-width:320px){
-    .place__website__link{
+    .place__link{
         max-width: 288px;
         max-height: 12px;
         margin-left: 16px;
