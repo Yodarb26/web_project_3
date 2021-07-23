@@ -1,3 +1,21 @@
+Hello Samir! Thanks for the corrections, they look good, the scroll is almost gone! However, I have to reject the work without a review again, because:
+
+    1) Not all files are organized according to BEM principles (blocks are nested in folders at the folder level, elements and modifiers are not nested in blocks, etc.). Please, take a closer look to how your place block is located in the file structure.
+
+    2) The page scrolls horizontally on desktop resolutions. There's a horizontal scroll on 1024 and smaller.
+    Five or more text elements have a fixed height. Please, remove height and max-height from all text elements and big content blocks. Sections with a background image (cover) can have min-height assigned.
+
+What else can be corrected before the first iteration:
+
+    3) intro section doesn't look like in the design. Please, check the font parameters (font-size, line-height) for the text elements inside it, and note that according to the design the content should have limited width.
+
+    4) There are some code alignment violations in html. Please, make the necessary indents. If you use VS Code, you can format your code automatically: https://code.visualstudio.com/docs/editor/codebasics#_formatting Or, you can use online formatters like https://webformatter.com/html
+    There should be a link in cover section, href value is specified in figma. Please, note that this link should occupy the whole section.-------------> Don't agree as I've used https://webformatter.com/html to formate it before submititng my code 
+
+Please, note that you don't spend an iteration when the project is rejected without a review.
+
+
+
 # Project 3: From Portland to Portland
 
 ### Overview
