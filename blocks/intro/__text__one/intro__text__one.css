@@ -18,8 +18,17 @@
     .intro__text__one {
         margin-left: 48px;
         margin-right: 286px;
+        margin-bottom: 32px;
         width: 690px;
-        height: 68px;
+        min-height: 68px;
+        left: 48px;
+        top: 1338px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 34px;
+        color: #FFFFFF;
     }
 }
 
@@ -27,17 +36,32 @@
     .intro__text__one {
         margin-left: 24px;
         margin-right: 24px;
+        margin-bottom: 32px;
         width: 720px;
-        height: 68px;
+        min-height: 68px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 34px;
+        color: #FFFFFF;
     }
 }
 
 @media only screen and (max-width: 320px){
         .intro__text__one {
+            margin-top: 0;
             margin-left: 16px;
             margin-right: 16px;
+            margin-bottom: 32px;
             width: 288px;
-            height: 90px;
-            padding-bottom: 0;
+            min-height: 90px;
+            padding: 0;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 30px;
+            color: #FFFFFF;
         }
 }
