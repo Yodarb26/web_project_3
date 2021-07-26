@@ -1,9 +1,9 @@
 @import url(./__list/intro__list.css);
-@import url(./__text/intro__text.css);
+@import url(./__text__one/intro__text__one.css);
+@import url(./__text__two/intro__text__two.css);
 @import url(./__title/intro__title.css);
 
 .intro {
-    left: 148px;
     top: 1233px;
     color: white;
 }

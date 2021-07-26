@@ -1,8 +1,10 @@
 .intro__list {
     left: 148px;
     top: 1730px;
-    margin: 0;
-    padding-left: 0;
+    margin:0;
+    /*margin-left: 148px;*/
+    margin-right: 590px;
+    padding: 32px 0 0 0;
     font-family: 'Inter';
     font-style: normal;
     font-weight: bold;
@@ -30,13 +32,10 @@
 @media only screen and (max-width: 320px){
 
     .intro__list {
-        margin-left: 16px;
-        margin-right: 16px;
         width: 288px;
-        height: 72px;
+        min-height: 72px;
         font-size: 12px;
         line-height: 18px;
-        margin-top: 34px;
-        margin-bottom: 64px;
+        margin: 34px 16px 0 16px;
     }
 }

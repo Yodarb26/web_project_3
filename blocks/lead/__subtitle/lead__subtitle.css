@@ -1,6 +1,6 @@
 .lead__subtitle {
     max-width: 620px;
-    height: 72px;
+    min-height: 72px;
     margin-right: 330px;
     margin-left: 330px;
     top: 368px;
@@ -20,7 +20,7 @@
 @media only screen and (max-width: 1024px){
     .lead__subtitle {
         max-width: 620px;
-        height: 72px;
+        min-height: 72px;
         margin-right: 202px;
         margin-left: 202px;
         top: 360px;
@@ -39,7 +39,7 @@
 @media only screen and (max-width: 768px){
     .lead__subtitle {
         max-width: 620px;
-        height: 72px;
+        min-height: 72px;
         margin-right: 74px;
         margin-left: 74px;
         top: 360px;
@@ -58,7 +58,7 @@
 @media only screen and (max-width: 320px){
     .lead__subtitle {
         max-width: 288px;
-        height: 40px;
+        min-height: 40px;
         margin-right: 16px;
         margin-left: 16px;
         top: 210px;

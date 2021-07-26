@@ -1,6 +1,6 @@
 .lead__image {
     width: 100%;
-    height: 615px;
+    min-height: 615px;
     margin: 0 auto;
     top: 504px;
 }
@@ -13,7 +13,7 @@
 @media only screen and (max-width: 1024px){
     .lead__image {
         width: 928px;
-        height: 580px;
+        min-height: 580px;
         padding-right: 48px;
         padding-left: 48px;
         top: 488px;
@@ -28,7 +28,7 @@
 @media only screen and (max-width: 768px){
     .lead__image {
         width: 768px;
-        height: 480px;
+        min-height: 480px;
         padding-right: 0;
         padding-left: 0;
         top: 488px;
@@ -43,7 +43,7 @@
 @media only screen and (max-width: 320px){
     .lead__image {
         width: 320px;
-        height: 200px;
+        min-height: 200px;
         padding-right: 0;
         padding-left: 0;
         top: 290px;
