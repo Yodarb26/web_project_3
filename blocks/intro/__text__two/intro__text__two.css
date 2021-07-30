@@ -10,11 +10,10 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 163%;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
-
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1024px) {
     .intro__text__two {
         width: 690px;
         min-height: 208px;
@@ -26,12 +25,11 @@
         font-weight: normal;
         font-size: 16px;
         line-height: 163%;
-        color: #FFFFFF;
+        color: #ffffff;
     }
 }
 
-
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
     .intro__text__two {
         width: 720px;
         min-height: 182px;
@@ -43,11 +41,11 @@
         font-weight: normal;
         font-size: 16px;
         line-height: 163%;
-        color: #FFFFFF;
+        color: #ffffff;
     }
 }
 
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 320px) {
     .intro__text__two {
         width: 288px;
         min-height: 468px;
@@ -59,6 +57,6 @@
         font-weight: normal;
         font-size: 16px;
         line-height: 163%;
-        color: #FFFFFF;
+        color: #ffffff;
     }
 }

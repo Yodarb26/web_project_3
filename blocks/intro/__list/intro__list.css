@@ -1,11 +1,10 @@
 .intro__list {
     left: 148px;
     top: 1730px;
-    margin:0;
-    /*margin-left: 148px;*/
+    margin: 0;
     margin-right: 590px;
     padding: 32px 0 0 0;
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
@@ -15,22 +14,21 @@
     color: white;
 }
 
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1024px) {
     .intro__list {
         margin-left: 48px;
         margin-right: 286px;
     }
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
     .intro__list {
         margin-left: 24px;
         margin-right: 24px;
     }
 }
 
-@media only screen and (max-width: 320px){
-
+@media only screen and (max-width: 320px) {
     .intro__list {
         width: 288px;
         min-height: 72px;

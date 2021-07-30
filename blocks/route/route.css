@@ -3,44 +3,65 @@
 @import url(./__title/route__title.css);
 @import url(./__subtitle/route__subtitle.css);
 
-
 .route {
     display: flex;
-    width:100%;
-    font-family: 'Inter';
-    background-image: url('../../images/__background.jpg');
+    width: 100%;
+    font-family: "Inter";
+    background-image: url("../../images/__background.jpg");
     min-height: 740px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     position: relative;
     margin-bottom: 94px;
-  }
+}
 
 .route:hover .route__overlay {
     opacity: 0.2;
-  }
-
-@media only screen and (max-width: 768px){
-  .route {
-      margin-top: 89px;
-      width: 768px;
-      min-height: 480px;
-    }
-
-      .route:hover .route__overlay {
-        opacity: 0.2;
-      }
 }
 
-@media only screen and (max-width: 320px){
-  .route {
-      margin-top: 64px;
-      width: 100%;
-      max-width: 320px;
-      min-height: 200px;
-  }
-  .route:hover .route__overlay {
-    opacity: 0.2;
-  }
+@media only screen and (max-width: 1024px) {
+    .route {
+        min-height: 640px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        margin-top: 97px;
+        margin-bottom: 94px;
+    }
+
+    .route:hover .route__overlay {
+        opacity: 0.2;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .route {
+        margin-bottom: 90px;
+        min-height: 480px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+    .route:hover .route__overlay {
+        opacity: 0.3;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .route {
+        margin-top: 64px;
+        margin-bottom: 64px;
+        width: 100%;
+        min-height: 200px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+    .route:hover .route__overlay {
+        opacity: 0.3;
+    }
 }

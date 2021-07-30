@@ -3,7 +3,7 @@
     padding-left: 0;
     margin: 0;
     left: 148px;
-    right:442px;
+    right: 442px;
     padding-top: 92px;
     padding-bottom: 40px;
     font-family: Inter;
@@ -15,7 +15,7 @@
     color: #ffffff;
 }
 
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1024px) {
     .intro__title {
         width: 690px;
         min-height: 116px;
@@ -27,11 +27,11 @@
         font-weight: 900;
         font-size: 54px;
         line-height: 58px;
-        color: #FFFFFF;
+        color: #ffffff;
     }
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
     .intro__title {
         width: 720px;
         min-height: 116px;
@@ -43,13 +43,11 @@
         font-weight: 900;
         font-size: 54px;
         line-height: 58px;
-        color: #FFFFFF;
+        color: #ffffff;
     }
-
 }
 
-@media only screen and (max-width: 320px){
-
+@media only screen and (max-width: 320px) {
     .intro__title {
         width: 288px;
         min-height: 105px;

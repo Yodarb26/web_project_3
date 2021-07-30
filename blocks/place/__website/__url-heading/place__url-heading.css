@@ -1,19 +1,37 @@
 .place__url-heading {
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 170%;
     text-decoration: none;
     letter-spacing: 0.2em;
+    color: white;
 }
 
 .place__url-heading:hover {
     opacity: 0.2;
 }
 
-@media only screen and (max-width:320px){
-    .place__url-heading{
+@media only screen and (max-width: 768px) {
+    .place__url-heading {
+        max-width: 352px;
+        min-height: 12px;
+        font-size: 12px;
+        margin-bottom: 12px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        text-decoration-line: underline;
+        color: #aaaaaa;
+        letter-spacing: 0.2em;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .place__url-heading {
         max-width: 288px;
         min-height: 12px;
         margin-left: 16px;

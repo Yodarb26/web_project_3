@@ -9,30 +9,31 @@
     grid-template-columns: 1fr 1fr;
     grid-gap: 40px;
     max-width: 100%;
+    min-height: 483px;
     margin: 0 148px 0px 148px;
 }
 
-@media only screen and (max-width: 1024px){
-  .place{
-    grid-template-columns: 1fr 1fr;
-    margin: 0 48px 0px 48px;
-    max-width: 100%;
-  }
+@media only screen and (max-width: 1024px) {
+    .place {
+        grid-template-columns: 1fr 1fr;
+        margin: 0 48px 0px 48px;
+        max-width: 100%;
+    }
 }
 
-@media only screen and (max-width: 768px){
-  .place{
-    grid-template-columns: 1fr 1fr;
-    margin: 0 24px 0px 24px;
-    max-width: 100%;
-  }
+@media only screen and (max-width: 768px) {
+    .place {
+        grid-template-columns: 1fr 1fr;
+        margin: 0 24px 0px 24px;
+        max-width: 100%;
+    }
 }
 
-@media only screen and (max-width: 320px){
-  .place{
-    grid-template-columns: 1fr;
-    margin: 0;
-    max-width: 100%;
-  }
+@media only screen and (max-width: 320px) {
+    .place {
+        grid-template-columns: 1fr;
+        margin: 0 0 32px 0;
+        max-width: 100%;
+    }
 }
 

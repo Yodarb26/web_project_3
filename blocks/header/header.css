@@ -3,8 +3,9 @@
 @import url(./__languages__link/header__languages__link.css);
 
 .header {
-    display:flex;
-    justify-content:space-between;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
+
 

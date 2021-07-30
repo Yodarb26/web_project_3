@@ -1,23 +1,22 @@
-.route__title{
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 900;
-        font-size: 72px;
-        line-height: 76px;
-        margin-top:283px;
-        margin-bottom: 32px;
+.route__title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    margin-top: 283px;
+    margin-bottom: 32px;
 }
 
-
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1024px) {
     .route__title {
         max-width: 656px;
         min-height: 76px;
-        margin: 0 184px 32px 184px;
+        margin: 233px 184px 32px 184px;
     }
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
     .route__title {
         max-width: 656px;
         min-height: 76px;
@@ -25,8 +24,7 @@
     }
 }
 
-
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 320px) {
     .route__title {
         width: 288px;
         min-height: 35px;

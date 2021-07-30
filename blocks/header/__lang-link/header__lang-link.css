@@ -1,22 +1,20 @@
 .header__lang-link {
     display: flex;
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 28px;
     /* identical to box height, or 117% */
     text-decoration: underline;
-    color:white;
+    color: white;
 }
 
 .header__lang-link:hover {
     opacity: 0.2;
 }
 
-
-@media only screen and (max-width: 320px){
-
+@media only screen and (max-width: 320px) {
     .header__lang-link {
         width: 21px;
         min-height: 20px;
@@ -24,5 +22,5 @@
         top: 30px;
         font-size: 18px;
         line-height: 20px;
-        }
+    }
 }
