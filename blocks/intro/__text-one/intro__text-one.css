@@ -1,4 +1,4 @@
-.intro__text--one {
+.intro__text-one {
     margin: 0;
     left: 148px;
     right: 442px;
@@ -14,7 +14,7 @@
 }
 
 @media only screen and (max-width: 1024px) {
-    .intro__text--one {
+    .intro__text-one {
         margin-left: 48px;
         margin-right: 286px;
         margin-bottom: 32px;
@@ -32,7 +32,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .intro__text--one {
+    .intro__text-one {
         margin-left: 24px;
         margin-right: 24px;
         margin-bottom: 32px;
@@ -48,7 +48,7 @@
 }
 
 @media only screen and (max-width: 320px) {
-    .intro__text--one {
+    .intro__text-one {
         margin-top: 0;
         margin-left: 16px;
         margin-right: 16px;

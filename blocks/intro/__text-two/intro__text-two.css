@@ -1,4 +1,4 @@
-.intro__text--two {
+.intro__text-two {
     width: 690px;
     margin: 0;
     padding: 0;
@@ -14,7 +14,7 @@
 }
 
 @media only screen and (max-width: 1024px) {
-    .intro__text--two {
+    .intro__text-two {
         width: 690px;
         min-height: 208px;
         margin-left: 48px;
@@ -30,7 +30,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .intro__text--two {
+    .intro__text-two {
         width: 720px;
         min-height: 182px;
         margin-left: 24px;
@@ -46,7 +46,7 @@
 }
 
 @media only screen and (max-width: 320px) {
-    .intro__text--two {
+    .intro__text-two {
         width: 288px;
         min-height: 468px;
         margin-left: 16px;
