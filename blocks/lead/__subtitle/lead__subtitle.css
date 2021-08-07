@@ -1,8 +1,11 @@
 .lead__subtitle {
+    width:100%;
     max-width: 620px;
     min-height: 72px;
-    margin-right: 330px;
-    margin-left: 330px;
+    margin-right: auto;
+    margin-left: auto;
+    /*margin-right: 330px;
+    margin-left: 330px;*/
     top: 368px;
     padding-bottom: 64px;
     font-family: "Inter";
@@ -17,10 +20,13 @@
 
 @media only screen and (max-width: 1024px) {
     .lead__subtitle {
+        width:100%;
         max-width: 620px;
         min-height: 72px;
-        margin-right: 202px;
-        margin-left: 202px;
+        margin-right: auto;
+        margin-left: auto;
+        /*margin-right: 202px;
+        margin-left: 202px;*/
         top: 360px;
         padding-bottom: 56px;
         font-family: Inter;
@@ -36,10 +42,13 @@
 
 @media only screen and (max-width: 768px) {
     .lead__subtitle {
+        width:100%;
         max-width: 620px;
         min-height: 72px;
-        margin-right: 74px;
-        margin-left: 74px;
+        margin-right: auto;
+        margin-left: auto;
+        /*margin-right: 74px;
+        margin-left: 74px;*/
         top: 360px;
         padding-bottom: 56px;
         font-family: Inter;
@@ -55,10 +64,13 @@
 
 @media only screen and (max-width: 320px) {
     .lead__subtitle {
+        width:100%;
         max-width: 288px;
         min-height: 40px;
-        margin-right: 16px;
-        margin-left: 16px;
+        margin-right: auto;
+        margin-left: auto;
+        /*margin-right: 16px;
+        margin-left: 16px;*/
         top: 210px;
         padding-bottom: 40px;
         font-family: Inter;

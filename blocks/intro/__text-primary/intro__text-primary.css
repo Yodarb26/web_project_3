@@ -1,9 +1,9 @@
-.intro__text-one {
-    margin: 0;
-    left: 148px;
-    right: 442px;
-    min-height: 68px;
-    padding: 0;
+.intro__text-primary {
+    width: 100%;
+    max-width: 690px;
+    max-height: 68px;
+    margin:0;
+    padding-bottom:32px;
     font-family: "Inter";
     font-style: normal;
     font-weight: normal;
@@ -14,15 +14,14 @@
 }
 
 @media only screen and (max-width: 1024px) {
-    .intro__text-one {
-        margin-left: 48px;
-        margin-right: 286px;
-        margin-bottom: 32px;
-        width: 690px;
+    .intro__text-primary {
+        margin:0;
+        padding-bottom: 32px;
+        width:100%;
+        max-width: 690px;
         min-height: 68px;
-        left: 48px;
         top: 1338px;
-        font-family: Inter;
+        font-family: "Inter";
         font-style: normal;
         font-weight: normal;
         font-size: 24px;
@@ -32,13 +31,13 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .intro__text-one {
-        margin-left: 24px;
-        margin-right: 24px;
-        margin-bottom: 32px;
-        width: 720px;
+    .intro__text-primary {
+        margin:0;
+        padding-bottom: 32px;
+        width:100%;
+        max-width: 720px;
         min-height: 68px;
-        font-family: Inter;
+        font-family: "Inter";
         font-style: normal;
         font-weight: normal;
         font-size: 24px;
@@ -48,15 +47,12 @@
 }
 
 @media only screen and (max-width: 320px) {
-    .intro__text-one {
-        margin-top: 0;
-        margin-left: 16px;
-        margin-right: 16px;
-        margin-bottom: 32px;
-        width: 288px;
+    .intro__text-primary {
+        margin:0;
+        width:100%;
+        max-width: 288px;
         min-height: 90px;
-        padding: 0;
-        font-family: Inter;
+        font-family: "Inter";
         font-style: normal;
         font-weight: normal;
         font-size: 24px;

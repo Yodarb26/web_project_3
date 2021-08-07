@@ -1,12 +1,10 @@
 .intro__title {
-    width: 690px;
-    padding-left: 0;
-    margin: 0;
-    left: 148px;
-    right: 442px;
-    padding-top: 92px;
+    width: 100%;
+    max-width: 690px;
+    margin: 0 auto;
+    padding-top:92px;
     padding-bottom: 40px;
-    font-family: Inter;
+    font-family: "Inter";
     font-style: normal;
     font-weight: 900;
     font-size: 54px;
@@ -17,12 +15,13 @@
 
 @media only screen and (max-width: 1024px) {
     .intro__title {
-        width: 690px;
+        width: 100%;
+        max-width: 690px;
         min-height: 116px;
-        margin-left: 48px;
-        margin-right: 288px;
+        margin: 0 auto;
+        padding-top:92px;
         top: 1182px;
-        font-family: Inter;
+        font-family: "Inter";
         font-style: normal;
         font-weight: 900;
         font-size: 54px;
@@ -33,12 +32,13 @@
 
 @media only screen and (max-width: 768px) {
     .intro__title {
-        width: 720px;
+        width:100%;
+        max-width: 720px;
         min-height: 116px;
-        margin-left: 24px;
-        margin-right: 24px;
+        margin: 0 auto;
+        padding-top:88px;
         top: 1078px;
-        font-family: Inter;
+        font-family: "Inter";
         font-style: normal;
         font-weight: 900;
         font-size: 54px;
@@ -49,16 +49,13 @@
 
 @media only screen and (max-width: 320px) {
     .intro__title {
-        width: 288px;
+        width:100%;
+        max-width: 288px;
         min-height: 105px;
-        padding-top: 86px;
-        padding-bottom: 40px;
-        margin-top: 0;
-        margin-left: 16px;
-        margin-right: 16px;
+        padding-top:64px;
         top: 576px;
         align-items: center;
-        font-family: Inter;
+        font-family: "Inter";
         font-style: normal;
         font-weight: 900;
         font-size: 32px;

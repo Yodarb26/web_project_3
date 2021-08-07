@@ -1,10 +1,9 @@
-.intro__text-two {
-    width: 690px;
-    margin: 0;
-    padding: 0;
-    min-height: 208px;
-    left: 148px;
-    right: 442px;
+.intro__text-secondary {
+    width:100%;
+    max-width: 690px;
+    max-height: 208px;
+    padding-bottom: 33px;
+    margin:0;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -14,11 +13,10 @@
 }
 
 @media only screen and (max-width: 1024px) {
-    .intro__text-two {
-        width: 690px;
+    .intro__text-secondary {
+        width:100%;
+        max-width: 690px;
         min-height: 208px;
-        margin-left: 48px;
-        margin-right: 286px;
         top: 1438px;
         font-family: Inter;
         font-style: normal;
@@ -30,11 +28,10 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .intro__text-two {
-        width: 720px;
+    .intro__text-secondary {
+        width:100%;
+        max-width: 720px;
         min-height: 182px;
-        margin-left: 24px;
-        margin-right: 24px;
         top: 1334px;
         font-family: Inter;
         font-style: normal;
@@ -46,11 +43,10 @@
 }
 
 @media only screen and (max-width: 320px) {
-    .intro__text-two {
-        width: 288px;
+    .intro__text-secondary {
+        width:100%;
+        max-width: 288px;
         min-height: 468px;
-        margin-left: 16px;
-        margin-right: 16px;
         top: 843px;
         font-family: Inter;
         font-style: normal;

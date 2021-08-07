@@ -1,9 +1,7 @@
 .intro__list {
-    left: 148px;
     top: 1730px;
-    margin: 0;
-    margin-right: 590px;
-    padding: 32px 0 0 0;
+    width:100%;
+    max-width: 690px;
     font-family: "Inter";
     font-style: normal;
     font-weight: bold;
@@ -12,28 +10,31 @@
     /* or 150% */
     list-style: none;
     color: white;
+    padding: 0;
+    margin:0;
 }
 
 @media only screen and (max-width: 1024px) {
     .intro__list {
-        margin-left: 48px;
-        margin-right: 286px;
+        width:100%;
+        max-width: 690px;
     }
 }
 
 @media only screen and (max-width: 768px) {
     .intro__list {
-        margin-left: 24px;
-        margin-right: 24px;
+        width:100%;
+        max-width: 720px;
     }
 }
 
 @media only screen and (max-width: 320px) {
     .intro__list {
-        width: 288px;
+        width:100%;
+        max-width: 288px;
         min-height: 72px;
         font-size: 12px;
         line-height: 18px;
-        margin: 34px 16px 0 16px;
+        
     }
 }

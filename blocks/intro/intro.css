@@ -1,9 +1,47 @@
 @import url(./__list/intro__list.css);
-@import url(./__text__one/intro__text-one.css);
-@import url(./__text__two/intro__text-two.css);
+@import url(./__text-primary/intro__text-primary.css);
+@import url(./__text-secondary/intro__text-secondary.css);
 @import url(./__title/intro__title.css);
 
 .intro {
     top: 1233px;
     color: white;
+    width: 100%;
+    max-width: 690px;
+    margin-left:100px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+    .intro {
+        top: 1233px;
+        color: white;
+        width: 100%;
+        max-width: 690px;
+        margin-left:52px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .intro {
+        top: 1233px;
+        color: white;
+        width: 100%;
+        max-width: 720px;
+        margin:0 auto;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+    .intro {
+        top: 1233px;
+        color: white;
+        width: 100%;
+        max-width: 288px;
+        margin:0 auto;
+        padding:0;
+    }
 }
