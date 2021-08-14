@@ -1,9 +1,9 @@
-.languages__link {
+.header__languages__link {
   margin-top: 46px;
   margin-right: 18px;
 }
 
-.languages__link:last-child {
+.header__languages__link:last-child {
   margin-right: 0;
 }
 

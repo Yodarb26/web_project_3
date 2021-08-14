@@ -17,26 +17,26 @@
     margin-bottom: 94px;
 }
 
-.route:hover .route__overlay {
-    opacity: 0.2;
-}
+.route:hover {
+    opacity: 0.1;
+  }
 
 @media only screen and (max-width: 1024px) {
     .route {
-        width: 100%;
+        /*width: 100%;*/
         max-width: 1024px;
         min-height: 640px;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         position: relative;
-        margin-top: 97px;
+        margin-top: 0;
         margin-bottom: 94px;
     }
 
-    .route:hover .route__overlay {
-        opacity: 0.2;
-    }
+    .route:hover {
+        opacity: 0.1;
+      }
 }
 
 @media only screen and (max-width: 768px) {
@@ -50,16 +50,17 @@
         background-size: cover;
         position: relative;
     }
-    .route:hover .route__overlay {
-        opacity: 0.3;
-    }
+
+    .route:hover {
+        opacity: 0.1;
+      }
 }
 
 @media only screen and (max-width: 320px) {
     .route {
         width: 100%;
         max-width: 320px;
-        margin-top: 64px;
+        margin-top: 0;
         margin-bottom: 64px;
         min-height: 200px;
         background-repeat: no-repeat;
@@ -67,7 +68,8 @@
         background-size: cover;
         position: relative;
     }
-    .route:hover .route__overlay {
-        opacity: 0.3;
-    }
+
+    .route:hover {
+        opacity: 0.1;
+      }
 }

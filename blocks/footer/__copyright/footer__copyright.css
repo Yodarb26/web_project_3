@@ -1,4 +1,6 @@
 .footer__copyright {
+    width: 100%;
+    max-width: 192px;
     font-family: "Inter";
     font-style: normal;
     font-weight: normal;
@@ -11,11 +13,32 @@
     margin-top: 0;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 1024px) {
+    .footer__copyright {
+        width: 100%;
+        max-width: 168px;
+        font-size: 14px;
+        line-height: 14px;
+        
+    }
+}
+
+@media only screen and (max-width: 768px) {
     .footer__copyright {
         font-size: 14px;
         line-height: 14px;
-        width: 165px;
+        width: 100%;
+        max-width: 168px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .footer__copyright {
+        width: 100%;
+        max-width: 168px;
+        font-size: 14px;
+        line-height: 14px;
+        margin:0;
     }
 }
 

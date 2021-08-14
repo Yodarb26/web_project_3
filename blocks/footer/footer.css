@@ -11,6 +11,8 @@
 
 @media only screen and (max-width: 1024px) {
     .footer {
+        width: 100%;
+        max-width: 928px;
         margin-right: 48px;
         margin-left: 48px;
     }
@@ -18,6 +20,8 @@
 
 @media only screen and (max-width: 768px) {
     .footer {
+        width: 100%;
+        max-width: 720px;
         margin-right: 24px;
         margin-left: 24px;
     }
@@ -25,7 +29,9 @@
 
 @media only screen and (max-width: 320px) {
     .footer {
+        width: 100%;
+        max-width: 175px;
         margin-left: 16px;
-        margin-right: 241px;
+        margin-right: 239px;
     }
 }

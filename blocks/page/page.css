@@ -1,10 +1,18 @@
 @import url(./__element/page__element.css);
 
+*{
+
+    outline: 1px solid red;
+    opacity: 1 !important; 
+    visibility: visible !important;
+
+}
+
 .page {
     width: 100%;
+    max-width: 1184px;
     background: #2a2c2f;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     height: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
