@@ -9,29 +9,38 @@
     margin-right: auto;
 }
 
+
 @media only screen and (max-width: 1024px) {
     .footer {
         width: 100%;
         max-width: 928px;
-        margin-right: 48px;
-        margin-left: 48px;
+        /*margin-right: 48px;
+        margin-left: 48px;*/
+        margin-left: auto;
+    margin-right: auto;
     }
 }
+
 
 @media only screen and (max-width: 768px) {
     .footer {
         width: 100%;
-        max-width: 720px;
-        margin-right: 24px;
-        margin-left: 24px;
+        max-width: 768px;
+        /*margin-right: 24px;
+        margin-left: 24px;*/
+        margin-left: auto;
+    margin-right: auto;
     }
 }
+
 
 @media only screen and (max-width: 320px) {
     .footer {
         width: 100%;
         max-width: 175px;
-        margin-left: 16px;
-        margin-right: 239px;
+        /*margin-left: 16px;
+        margin-right: 239px;*/
+        margin-left: auto;
+    margin-right: auto;
     }
 }
