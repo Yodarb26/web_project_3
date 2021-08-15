@@ -1,5 +1,5 @@
 .route__title {
-    width:100%;
+    width: 100%;
     max-width: 656px;
     margin-left: auto;
     margin-right: auto;
@@ -14,32 +14,28 @@
 
 @media only screen and (max-width: 1024px) {
     .route__title {
-        width:100%;
+        width: 100%;
         max-width: 656px;
         min-height: 76px;
-        /*margin: 233px 184px 32px 184px;*/
         margin: 233px auto 32px auto;
     }
 }
 
 @media only screen and (max-width: 768px) {
     .route__title {
-        width:100%;
+        width: 100%;
         max-width: 656px;
         min-height: 76px;
-        /*margin: 153px 56px 32px 56px;*/
         margin: 153px auto 32px auto;
     }
 }
 
 @media only screen and (max-width: 320px) {
     .route__title {
-        width:100%;
+        width: 100%;
         max-width: 288px;
         min-height: 35px;
         margin-top: 51px;
-        /*margin-left: 16px;
-        margin-right: 16px;*/
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 0;
@@ -48,3 +44,4 @@
         text-align: center;
     }
 }
+

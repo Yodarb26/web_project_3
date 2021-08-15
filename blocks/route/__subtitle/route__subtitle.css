@@ -1,5 +1,5 @@
 .route__subtitle {
-  width:100%;
+  width: 100%;
   max-width: 320px;
   min-height: 66px;
   margin: 0 auto 32px auto;
@@ -9,13 +9,12 @@
   font-size: 18px;
   line-height: 22px;
   align-items: center;
-  /* or 122% */
   text-align: center;
 }
 
 @media only screen and (max-width: 1024px) {
   .route__subtitle {
-      width:100%;
+      width: 100%;
       max-width: 320px;
       min-height: 66px;
       margin: 0 auto 0 auto;
@@ -24,7 +23,7 @@
 
 @media only screen and (max-width: 768px) {
   .route__subtitle {
-      width:100%;
+      width: 100%;
       max-width: 320px;
       min-height: 66px;
       margin: 0 auto 0 auto;
@@ -33,7 +32,7 @@
 
 @media only screen and (max-width: 320px) {
   .route__subtitle {
-      width:100%;
+      width: 100%;
       max-width: 288px;
       min-height: 48px;
       margin-left: auto;

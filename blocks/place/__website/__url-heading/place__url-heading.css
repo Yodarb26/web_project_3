@@ -13,12 +13,6 @@
     opacity: 0.2;
 }
 
-@media only screen and (max-width: 1024px){
-    .place__url-heading {
-    }
-
-
-}
 @media only screen and (max-width: 768px) {
     .place__url-heading {
         max-width: 352px;
@@ -33,6 +27,10 @@
         color: #aaaaaa;
         letter-spacing: 0.2em;
     }
+
+    .place__url-heading:hover {
+        opacity: 0.2;
+    }
 }
 
 @media only screen and (max-width: 320px) {
@@ -42,7 +40,11 @@
         margin-left: 16px;
         font-size: 12px;
         line-height: 12px;
-        /* identical to box height, or 100% */
         letter-spacing: 0.2em;
     }
+
+    .place__url-heading:hover {
+        opacity: 0.2;
+    }
 }
+

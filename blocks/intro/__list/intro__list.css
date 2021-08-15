@@ -1,40 +1,39 @@
 .intro__list {
     top: 1730px;
-    width:100%;
+    width: 100%;
     max-width: 690px;
     font-family: "Inter";
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
     line-height: 18px;
-    /* or 150% */
     list-style: none;
     color: white;
     padding: 0;
-    margin:0;
+    margin: 0;
 }
 
 @media only screen and (max-width: 1024px) {
     .intro__list {
-        width:100%;
+        width: 100%;
         max-width: 690px;
     }
 }
 
 @media only screen and (max-width: 768px) {
     .intro__list {
-        width:100%;
+        width: 100%;
         max-width: 720px;
     }
 }
 
 @media only screen and (max-width: 320px) {
     .intro__list {
-        width:100%;
+        width: 100%;
         max-width: 288px;
         min-height: 72px;
         font-size: 12px;
         line-height: 18px;
-        
     }
 }
+

@@ -4,7 +4,6 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 18px;
-    /* identical to box height, or 112% */
     flex-direction: row;
     text-decoration: none;
     color: #ffffff;
@@ -19,18 +18,17 @@
 
 @media only screen and (max-width: 1024px) {
     .footer__link {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 18px;
-    /* identical to box height, or 112% */
-    flex-direction: row;
-    text-decoration: none;
-    color: #ffffff;
-    margin-right: 18px;
-    margin-top: 0;
-    margin-bottom: 24px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 18px;
+        flex-direction: row;
+        text-decoration: none;
+        color: #ffffff;
+        margin-right: 18px;
+        margin-top: 0;
+        margin-bottom: 24px;
     }
 }
 
@@ -41,7 +39,6 @@
         font-weight: normal;
         font-size: 16px;
         line-height: 18px;
-        /* identical to box height, or 112% */
         flex-direction: row;
         text-decoration: none;
         color: #ffffff;
@@ -53,10 +50,10 @@
 
 @media only screen and (max-width: 320px) {
     .footer__link {
-        flex-direction:column;
+        flex-direction: column;
         width: 100%;
         max-width: 225px;
-        margin-left: 16px;
+        margin-left: 0;
         margin-right: 16px;
     }
 }

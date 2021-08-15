@@ -19,11 +19,10 @@
 
 .route:hover {
     opacity: 0.1;
-  }
+}
 
 @media only screen and (max-width: 1024px) {
     .route {
-        /*width: 100%;*/
         max-width: 1024px;
         min-height: 640px;
         background-repeat: no-repeat;
@@ -36,7 +35,7 @@
 
     .route:hover {
         opacity: 0.1;
-      }
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -53,7 +52,7 @@
 
     .route:hover {
         opacity: 0.1;
-      }
+    }
 }
 
 @media only screen and (max-width: 320px) {
@@ -71,5 +70,5 @@
 
     .route:hover {
         opacity: 0.1;
-      }
+    }
 }

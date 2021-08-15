@@ -2,14 +2,13 @@
     width: 100%;
     max-width: 690px;
     margin: 0 auto;
-    padding-top:92px;
+    padding-top: 92px;
     padding-bottom: 40px;
     font-family: "Inter";
     font-style: normal;
     font-weight: 900;
     font-size: 54px;
     line-height: 58px;
-    /* or 107% */
     color: #ffffff;
 }
 
@@ -19,7 +18,7 @@
         max-width: 690px;
         min-height: 116px;
         margin: 0 auto;
-        padding-top:92px;
+        padding-top: 92px;
         top: 1182px;
         font-family: "Inter";
         font-style: normal;
@@ -32,11 +31,11 @@
 
 @media only screen and (max-width: 768px) {
     .intro__title {
-        width:100%;
+        width: 100%;
         max-width: 720px;
         min-height: 116px;
         margin: 0 auto;
-        padding-top:88px;
+        padding-top: 88px;
         top: 1078px;
         font-family: "Inter";
         font-style: normal;
@@ -49,10 +48,10 @@
 
 @media only screen and (max-width: 320px) {
     .intro__title {
-        width:100%;
+        width: 100%;
         max-width: 288px;
         min-height: 105px;
-        padding-top:64px;
+        padding-top: 64px;
         top: 576px;
         align-items: center;
         font-family: "Inter";

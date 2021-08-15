@@ -10,7 +10,6 @@
     opacity: 0.2;
 }
 
-
 @media only screen and (max-width: 1024px) {
     .photo-grid__item {
         width: 300px;
@@ -19,12 +18,11 @@
         margin-right: 0;
         margin-left: 0;
     }
-    
+
     .photo-grid__item:hover {
         opacity: 0.2;
     }
 }
-
 
 @media only screen and (max-width: 768px) {
     .photo-grid__item {
@@ -34,7 +32,7 @@
         margin-right: 0;
         margin-left: 0;
     }
-    
+
     .photo-grid__item:hover {
         opacity: 0.2;
     }
@@ -48,7 +46,7 @@
         margin-right: 0;
         margin-left: 0;
     }
-    
+
     .photo-grid__item:hover {
         opacity: 0.2;
     }
