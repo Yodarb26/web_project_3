@@ -17,6 +17,10 @@
     margin-bottom: 94px;
 }
 
+.route::before{
+    opacity: 0.3;
+}
+
 .route:hover {
     opacity: 0.8;
 }
