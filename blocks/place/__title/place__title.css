@@ -1,7 +1,6 @@
 .place__title {
     width: 100%;
     max-width: 460px;
-    /*max-height:152px;*/
     line-height:76px;
     flex: 1 1 100%;
     margin: 0 auto;
