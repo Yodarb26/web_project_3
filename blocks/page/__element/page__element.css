@@ -2,3 +2,12 @@
   max-width: 1184px;
   margin: 0 auto;
 }
+
+
+*{
+
+  outline: 1px solid red;
+  opacity: 1 !important; 
+  visibility: visible !important;
+
+}

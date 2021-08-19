@@ -3,6 +3,8 @@
 @import url(./__paragraph/place__paragraph.css);
 @import url(./__title/place__title.css);
 @import url(./__website/place__website.css);
+@import url(./__link/place__link.css);
+@import url(./__url-heading/place__url-heading.css);
 
 .place {
     display: grid;
@@ -10,39 +12,28 @@
     grid-gap: 40px;
     width: 100%;
     max-width: 984px;
-    min-height: 483px;
     margin: 0 auto;
     padding-bottom: 80px;
+    font-family: "Inter", Arial, sans-serif;
 }
 
 @media only screen and (max-width: 1024px) {
     .place {
-        display: grid;
-        width: 100%;
         max-width: 928px;
-        margin: 0 auto;
         padding-bottom: 81px;
-        grid-template-columns: 1fr 1fr;
     }
 }
 
 @media only screen and (max-width: 768px) {
     .place {
-        display: grid;
-        width: 100%;
         max-width: 720px;
-        margin: 0 auto;
         padding-bottom: 73px;
-        grid-template-columns: 1fr 1fr;
     }
 }
 
 @media only screen and (max-width: 320px) {
     .place {
-        display: grid;
-        width: 100%;
         max-width: 320px;
-        margin: 0 auto;
         grid-template-columns: 1fr;
         padding-bottom: 48px;
     }

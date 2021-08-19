@@ -1,9 +1,7 @@
 .route__subtitle {
   width: 100%;
   max-width: 320px;
-  min-height: 66px;
   margin: 0 auto 32px auto;
-  font-family: "Inter";
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -16,25 +14,20 @@
   .route__subtitle {
       width: 100%;
       max-width: 320px;
-      min-height: 66px;
-      margin: 0 auto 0 auto;
+      margin: 0 auto;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .route__subtitle {
-      width: 100%;
       max-width: 320px;
-      min-height: 66px;
-      margin: 0 auto 0 auto;
+      margin: 0 auto;
   }
 }
 
 @media only screen and (max-width: 320px) {
   .route__subtitle {
-      width: 100%;
       max-width: 288px;
-      min-height: 48px;
       margin-left: auto;
       margin-right: auto;
       font-size: 14px;

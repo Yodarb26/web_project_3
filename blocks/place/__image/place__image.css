@@ -10,16 +10,12 @@
     margin-bottom: 92px;
 }
 
-.place__image:hover {
-    opacity: 0.2;
-}
-
 @media screen and (max-width: 1024px) {
     .place__image {
-        width: 100%;
+       
         max-width: 440px;
         min-height: 440px;
-        margin: 0;
+        
     }
 
     .place__image:last-child {
@@ -29,10 +25,9 @@
 
 @media screen and (max-width: 768px) {
     .place__image {
-        width: 100%;
         max-width: 340px;
         min-height: 340px;
-        margin: 0;
+        
     }
 
     .place__image:last-child {
@@ -42,10 +37,9 @@
 
 @media screen and (max-width: 320px) {
     .place__image {
-        width: 100%;
         max-width: 320px;
-        min-height: 320px;
-        margin: 0;
+        height: 320px;
+       
     }
 
     .place__image:last-child {

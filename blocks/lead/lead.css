@@ -7,28 +7,24 @@
     margin: 0 auto;
     width: 100%;
     max-width: 984px;
+    font-family: "Inter", Arial, sans-serif;
 }
+
 
 @media only screen and (max-width: 1024px) {
     .lead {
-        margin: 0 auto;
-        width: 100%;
         max-width: 928px;
     }
 }
 
 @media only screen and (max-width: 768px) {
     .lead {
-        margin: 0 auto;
-        width: 100%;
         max-width: 768px;
     }
 }
 
 @media only screen and (max-width: 320px) {
     .lead {
-        margin: 0 auto;
-        width: 100%;
         max-width: 320px;
     }
 }

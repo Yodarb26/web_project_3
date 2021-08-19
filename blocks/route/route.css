@@ -7,7 +7,7 @@
     display: flex;
     width: 100%;
     max-width: 1184px;
-    font-family: "Inter";
+    font-family: "Inter", Arial, sans-serif;
     background-image: url("../../images/__background.jpg");
     min-height: 740px;
     background-repeat: no-repeat;
@@ -18,57 +18,34 @@
 }
 
 .route:hover {
-    opacity: 0.1;
+    opacity: 0.8;
 }
 
 @media only screen and (max-width: 1024px) {
     .route {
         max-width: 1024px;
         min-height: 640px;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        position: relative;
         margin-top: 0;
         margin-bottom: 94px;
     }
 
-    .route:hover {
-        opacity: 0.1;
-    }
 }
 
 @media only screen and (max-width: 768px) {
     .route {
-        width: 100%;
         max-width: 768px;
         margin-bottom: 90px;
         min-height: 480px;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        position: relative;
-    }
-
-    .route:hover {
-        opacity: 0.1;
     }
 }
 
 @media only screen and (max-width: 320px) {
     .route {
-        width: 100%;
         max-width: 320px;
         margin-top: 0;
         margin-bottom: 64px;
         min-height: 200px;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        position: relative;
     }
 
-    .route:hover {
-        opacity: 0.1;
     }
-}
+

@@ -1,10 +1,8 @@
 .intro__text-secondary {
     width: 100%;
     max-width: 690px;
-    max-height: 208px;
     padding-bottom: 33px;
     margin: 0;
-    font-family: Inter;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -12,20 +10,12 @@
     color: #ffffff;
 }
 
+/*
 @media only screen and (max-width: 1024px) {
     .intro__text-secondary {
-        width: 100%;
-        max-width: 690px;
-        min-height: 208px;
-        top: 1438px;
-        font-family: Inter;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 163%;
-        color: #ffffff;
+        .
     }
-}
+}*/
 
 @media only screen and (max-width: 768px) {
     .intro__text-secondary {
@@ -33,12 +23,6 @@
         max-width: 720px;
         min-height: 182px;
         top: 1334px;
-        font-family: Inter;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 163%;
-        color: #ffffff;
     }
 }
 
@@ -48,11 +32,5 @@
         max-width: 288px;
         min-height: 468px;
         top: 843px;
-        font-family: Inter;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 163%;
-        color: #ffffff;
     }
 }

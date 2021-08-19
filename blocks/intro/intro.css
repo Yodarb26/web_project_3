@@ -4,28 +4,22 @@
 @import url(./__title/intro__title.css);
 
 .intro {
-    top: 1233px;
+    /*top: 1233px;*/
     color: white;
     width: 100%;
     max-width: 690px;
     margin-left: 100px;
+    font-family: "Inter", Arial, sans-serif;
 }
 
 @media only screen and (max-width: 1024px) {
     .intro {
-        top: 1233px;
-        color: white;
-        width: 100%;
-        max-width: 690px;
         margin: 0 auto 0 48px;
     }
 }
 
 @media only screen and (max-width: 768px) {
     .intro {
-        top: 1233px;
-        color: white;
-        width: 100%;
         max-width: 720px;
         margin: 0 auto;
     }
@@ -33,9 +27,6 @@
 
 @media only screen and (max-width: 320px) {
     .intro {
-        top: 1233px;
-        color: white;
-        width: 100%;
         max-width: 288px;
         margin: 0 auto;
         padding: 0;

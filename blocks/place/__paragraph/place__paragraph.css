@@ -1,9 +1,6 @@
 .place__paragraph {
     margin: 0;
-    min-height: 145px;
     width: 100%;
-    max-width: 484px;
-    font-family: "Inter";
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -20,15 +17,7 @@
 @media only screen and (max-width: 1024px) {
     .place__paragraph {
         min-height: 145px;
-        width: 100%;
         max-width: 456px;
-        margin: 0;
-        font-family: "Inter";
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 163%;
-        color: #ffffff;
     }
 
     .place__paragraph:last-child {
@@ -40,15 +29,9 @@
 
 @media only screen and (max-width: 768px) {
     .place__paragraph {
-        min-height: 145px;
-        width: 100%;
         max-width: 352px;
-        font-family: "Inter";
-        font-style: normal;
-        font-weight: normal;
         font-size: 16px;
         line-height: 163%;
-        color: #ffffff;
         margin: 0;
     }
     .place__paragraph:last-child {
@@ -61,13 +44,8 @@
     .place__paragraph {
         width: 100%;
         max-width: 288px;
-        min-height: 145px;
-        font-family: "Inter";
-        font-style: normal;
-        font-weight: normal;
         font-size: 16px;
         line-height: 163%;
-        color: #ffffff;
         margin: 0 16px 0 16px;
     }
 

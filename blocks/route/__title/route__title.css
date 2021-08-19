@@ -1,22 +1,17 @@
 .route__title {
     width: 100%;
     max-width: 656px;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: "Inter";
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
-    margin-top: 283px;
-    margin-bottom: 32px;
+    margin: 283px auto 32px auto;
 }
 
 @media only screen and (max-width: 1024px) {
     .route__title {
         width: 100%;
         max-width: 656px;
-        min-height: 76px;
         margin: 233px auto 32px auto;
     }
 }
@@ -25,7 +20,6 @@
     .route__title {
         width: 100%;
         max-width: 656px;
-        min-height: 76px;
         margin: 153px auto 32px auto;
     }
 }
@@ -34,11 +28,7 @@
     .route__title {
         width: 100%;
         max-width: 288px;
-        min-height: 35px;
-        margin-top: 51px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 0;
+        margin: 51px auto 0 auto;
         font-size: 32px;
         line-height: 35px;
         text-align: center;
