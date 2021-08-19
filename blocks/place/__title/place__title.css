@@ -1,7 +1,7 @@
 .place__title {
     width: 100%;
     max-width: 460px;
-    line-height:76px;
+    line-height: 76px;
     flex: 1 1 100%;
     margin: 0 auto;
     font-style: normal;
@@ -13,9 +13,9 @@
 }
 @media only screen and (max-width: 1024px) {
     .place__title {
-        width: 100%; 
-        max-width: 440px; 
-        flex: 1 1 100%; 
+        width: 100%;
+        max-width: 440px;
+        flex: 1 1 100%;
         margin: 0 auto;
         font-size: 72px;
         line-height: 76px;
@@ -24,9 +24,9 @@
 
 @media only screen and (max-width: 768px) {
     .place__title {
-        width: 100%; 
-        max-width: 340px; 
-        flex: 1 1 100%; 
+        width: 100%;
+        max-width: 340px;
+        flex: 1 1 100%;
         margin: 0 auto;
         font-size: 42px;
         line-height: 46px;
@@ -35,10 +35,10 @@
 
 @media only screen and (max-width: 320px) {
     .place__title {
-        width: 100%; 
-        max-width: 288px; 
-        flex: 1 1 100%; 
-        margin: 0 auto; 
+        width: 100%;
+        max-width: 288px;
+        flex: 1 1 100%;
+        margin: 0 auto;
         font-size: 32px;
         line-height: 35px;
     }
