@@ -3,7 +3,6 @@
     margin: 0;
     width: 100%;
     max-width: 460px;
-    min-height: 460px;
 }
 
 .place__image:last-child {
@@ -13,7 +12,6 @@
 @media screen and (max-width: 1024px) {
     .place__image {
         max-width: 440px;
-        min-height: 440px;
     }
 
     .place__image:last-child {
@@ -24,7 +22,6 @@
 @media screen and (max-width: 768px) {
     .place__image {
         max-width: 340px;
-        min-height: 340px;
     }
 
     .place__image:last-child {
@@ -35,7 +32,6 @@
 @media screen and (max-width: 324px) {
     .place__image {
         max-width: 320px;
-        height: 320px;
     }
 
     .place__image:last-child {

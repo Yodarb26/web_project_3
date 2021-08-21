@@ -10,27 +10,16 @@
     color: #ffffff;
 }
 
-/*
-@media only screen and (max-width: 1024px) {
-    .intro__text-secondary {
-        .
-    }
-}*/
-
 @media only screen and (max-width: 768px) {
     .intro__text-secondary {
-        width: 100%;
         max-width: 720px;
-        min-height: 182px;
         top: 1334px;
     }
 }
 
 @media only screen and (max-width: 320px) {
     .intro__text-secondary {
-        width: 100%;
         max-width: 288px;
-        min-height: 468px;
         top: 843px;
     }
 }

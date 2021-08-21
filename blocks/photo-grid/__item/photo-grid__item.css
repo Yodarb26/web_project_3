@@ -2,33 +2,26 @@
     width:100%;
     max-width: 284px;
     object-fit: cover;
-    margin-right: 0;
-    margin-left: 0;
+    margin: 0 auto;
 }
 
 @media only screen and (max-width: 1024px) {
     .photo-grid__item {
-        width: 100%;
         max-width: 300px;
-        margin: 0 auto;
     }
 
 }
 
 @media only screen and (max-width: 768px) {
     .photo-grid__item {
-        width: 100%;
         max-width: 352px;
-        margin: 0 auto;
     }
 
 }
 
 @media only screen and (max-width: 320px) {
     .photo-grid__item {
-        width: 100%;
         max-width: 288px;
-        margin: 0 auto;
     }
 
 }

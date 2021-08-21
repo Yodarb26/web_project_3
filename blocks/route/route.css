@@ -1,8 +1,3 @@
-@import url(./__inner/route__inner.css);
-@import url(./__overlay/route__overlay.css);
-@import url(./__title/route__title.css);
-@import url(./__subtitle/route__subtitle.css);
-
 .route {
     display: flex;
     width: 100%;

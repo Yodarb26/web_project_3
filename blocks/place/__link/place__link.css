@@ -12,14 +12,12 @@
 
 @media only screen and (max-width: 1024px) {
     .place__url-heading {
-        width:100%;
         max-width: 456px;
     }
 }
 
 @media only screen and (max-width: 768px) {
     .place__url-heading {
-        width:100%;
         max-width: 352px;
     }
 }
@@ -27,7 +25,6 @@
 
 @media only screen and (max-width: 320px) {
     .place__link {
-        width: 100%;
         max-width: 288px;
         margin-left: 16px;
         text-decoration-line: underline;

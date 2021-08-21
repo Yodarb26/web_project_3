@@ -6,9 +6,7 @@
     padding-bottom: 32px;
     font-style: normal;
     font-weight: 900;
-    /*font-size: 96px;*/
-    /*min-height: 200px;*/
-    font-size: 5vw;
+    font-size: 96px;
     text-align: center;
     color: #ffffff;
 }
@@ -28,8 +26,6 @@
         
     }
 }
-
-/*@media only screen and (max-width: 430px)*/
 
 @media only screen and (max-width: 430px) {
     .lead__title {
