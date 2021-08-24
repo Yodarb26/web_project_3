@@ -27,7 +27,7 @@
     }
 }
 
-@media only screen and (max-width: 321px) {
+@media only screen and (max-width: 411px) {
     .lead__title {
         max-width: 288px;
         padding-bottom: 16px;
