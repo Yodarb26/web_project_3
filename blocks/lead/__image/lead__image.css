@@ -2,15 +2,15 @@
     width: 100%;
     max-width: 984px;
     margin: 0 auto;
-    padding-right: 0;
-    padding-left: 0;
+    /*padding-right: 0;
+    padding-left: 0;*/
+    padding: 0;
     align-items: center;
 }
 
 @media only screen and (max-width: 1024px) {
     .lead__image {
         max-width: 928px;
-        top: 488px;
     }
 
 }
@@ -18,15 +18,13 @@
 @media only screen and (max-width: 768px) {
     .lead__image {
         max-width: 768px;
-        top: 488px;
     }
 
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 321px) {
     .lead__image {
         max-width: 320px;
-        top: 290px;
     }
 
 }

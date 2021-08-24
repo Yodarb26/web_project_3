@@ -1,4 +1,6 @@
 .place__url-heading {
+    width:100%;
+    max-width: 456px;
     font-style: normal;
     font-weight: normal;
     line-height: 170%;
@@ -8,29 +10,18 @@
     margin: 0;
 }
 
-@media only screen and (max-width: 1024px) {
-    .place__url-heading {
-        width:100%;
-        max-width: 456px;
-    }
-}
-
 @media only screen and (max-width: 768px) {
     .place__url-heading {
-        width:100%;
         max-width: 352px;
-        min-height: 12px;
-        margin-bottom: 12px;
+        margin: 0 0 12px 0;
         line-height: 22px;
     }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 321px) {
     .place__url-heading {
-        width:100%;
         max-width: 288px;
-        min-height: 12px;
-        margin-left: 16px;
+        margin: 0 0 0 16px;
     }
 }
 

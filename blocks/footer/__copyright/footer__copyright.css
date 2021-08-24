@@ -13,23 +13,20 @@
 
 @media only screen and (max-width: 1024px) {
     .footer__copyright {
-        width: 100%;
         max-width: 168px;
         font-size: 14px;
-        line-height: 14px;
     }
 }
 
 @media only screen and (max-width: 768px) {
     .footer__copyright {
-        width: 100%;
         max-width: 168px;
+        font-size: 14px;
     }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 321px) {
     .footer__copyright {
-        width: 100%;
         max-width: 168px;
         margin: 0;
         padding: 48px 0 16px 0;

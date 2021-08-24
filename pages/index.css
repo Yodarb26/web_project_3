@@ -1,14 +1,11 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/inter/inter.css);
-
-@import url(../blocks/page/page.css);
-@import url(../blocks/page/__element/page__element.css);
+@import url(../blocks/container/container.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__languages/header__languages.css);
 @import url(../blocks/header/__languages-link/header__languages-link.css);
-
 @import url(../blocks/logo/logo.css);
 
 @import url(../blocks/lead/lead.css);
@@ -18,9 +15,9 @@
 @import url(../blocks/lead/__title/lead__title.css);
 
 @import url(../blocks/intro/intro.css);
-@import url(../blocks/intro/__title/intro__title/intro__title.css);
-@import url(../blocks/intro/__text-primary/intro__text-primary/intro__text-primary.css);
-@import url(../blocks/intro/__text-secondary/intro__text-secondary/intro__text-secondary.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text-primary/intro__text-primary.css);
+@import url(../blocks/intro/__text-secondary/intro__text-secondary.css);
 @import url(../blocks/intro/__list/intro__list.css);
 
 @import url(../blocks/photo-grid/photo-grid.css);
@@ -35,14 +32,19 @@
 @import url(../blocks/place/__link/place__link.css);
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 
-@import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__copyright/footer__copyright.css);
-@import url(../blocks/footer/__link/footer__link.css);
-
-@import url(../blocks/container/container.css);
-
 @import url(../blocks/route/route.css);
 @import url(../blocks/route/__inner/route__inner.css);
 @import url(../blocks/route/__overlay/route__overlay.css);
 @import url(../blocks/route/__title/route__title.css);
 @import url(../blocks/route/__subtitle/route__subtitle.css);
+
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/__element/page__element.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__link/footer__link.css);
+
+
+
+

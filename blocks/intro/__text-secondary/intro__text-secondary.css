@@ -13,13 +13,11 @@
 @media only screen and (max-width: 768px) {
     .intro__text-secondary {
         max-width: 720px;
-        top: 1334px;
     }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 321px) {
     .intro__text-secondary {
         max-width: 288px;
-        top: 843px;
     }
 }

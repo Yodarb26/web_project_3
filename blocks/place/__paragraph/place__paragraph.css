@@ -1,54 +1,51 @@
 .place__paragraph {
-    margin: 0;
+    margin: 0 auto;
     width: 100%;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 163%;
     color: #ffffff;
-    padding-bottom: 25px;
+    padding: 0 0 25px 0;
 }
 
 .place__paragraph:last-child {
     margin: 0 auto;
+    padding: 0
 }
+
 
 @media only screen and (max-width: 1024px) {
     .place__paragraph {
         max-width: 456px;
     }
 
-    .place__paragraph:last-child {
-        margin: 0 auto;
-        padding-bottom: 0;
-    }
 }
+
 
 @media only screen and (max-width: 768px) {
     .place__paragraph {
         max-width: 352px;
         font-size: 16px;
-        line-height: 163%;
-        margin: 0;
     }
+
+    /*
     .place__paragraph:last-child {
-        padding-bottom: 0;
+        padding: 0;
         min-height: 26px;
-    }
+    }*/
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 321px) {
     .place__paragraph {
-        width: 100%;
         max-width: 288px;
         font-size: 16px;
-        line-height: 163%;
-        margin: 0 16px 0 16px;
-    }
-
-    .place__paragraph:last-child {
-        padding-bottom: 0;
         margin: 0 auto;
     }
+
+    /*
+    .place__paragraph:last-child {
+        padding: 0;
+    }*/
 }
 

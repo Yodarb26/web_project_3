@@ -2,33 +2,27 @@
     font-family: "Inter", Arial, sans-serif;
     display: flex;
     flex-wrap: wrap;
+    width:100%;
     max-width: 1184px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 @media only screen and (max-width: 1024px) {
     .footer {
-        width: 100%;
         max-width: 928px;
-        margin: 0 auto;
     }
 }
 
 @media only screen and (max-width: 768px) {
     .footer {
-        width: 100%;
         max-width: 720px;
-        margin: 0 auto;
     }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 321px) {
     .footer {
-        width: 100%;
         max-width: 175px;
-        margin-left: 16px;
-        margin-right: auto;
+        margin: 0 auto 0 16px;
     }
 }
 

@@ -10,23 +10,18 @@
 
 @media only screen and (max-width: 1024px) {
     .route__title {
-        width: 100%;
-        max-width: 656px;
         margin: 233px auto 32px auto;
     }
 }
 
 @media only screen and (max-width: 768px) {
     .route__title {
-        width: 100%;
-        max-width: 656px;
         margin: 153px auto 32px auto;
     }
 }
 
 @media only screen and (max-width: 320px) {
     .route__title {
-        width: 100%;
         max-width: 288px;
         margin: 51px auto 0 auto;
         font-size: 32px;

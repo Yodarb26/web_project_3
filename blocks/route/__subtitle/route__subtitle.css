@@ -12,27 +12,21 @@
 
 @media only screen and (max-width: 1024px) {
   .route__subtitle {
-      width: 100%;
       max-width: 320px;
-      margin: 0 auto;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .route__subtitle {
       max-width: 320px;
-      margin: 0 auto;
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 321px) {
   .route__subtitle {
       max-width: 288px;
-      margin-left: auto;
-      margin-right: auto;
       font-size: 14px;
       margin-top: 16px;
       line-height: 16px;
-      text-align: center;
   }
 }
