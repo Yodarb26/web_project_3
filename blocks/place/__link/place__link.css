@@ -1,18 +1,19 @@
 .place__link {
     width:100%;
-    max-width: 456px;
+    /*max-width: 456px;*/
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
     padding-bottom: 0;
     color: #ffffff;
+    margin:0;
 }
 
 
 @media only screen and (max-width: 1024px) {
     .place__url-heading {
-        max-width: 456px;
+        /*max-width: 456px;*/
     }
 }
 
