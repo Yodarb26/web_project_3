@@ -14,20 +14,10 @@
 
 }
 
-/*
-@media only screen and (max-width: 1024px) {
-    .place__url-heading {
-        max-width: 456px;
-    }
-}*/
-
-
 @media only screen and (max-width: 768px) {
     .place__url-heading {
         max-width: 352px;
     }
-
-
 }
 
 
