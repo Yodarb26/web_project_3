@@ -11,9 +11,24 @@
     padding-bottom: 24px;
 }
 
+/*
 @media only screen and (max-width: 321px) {
     .footer__link {
         flex-direction: column;
+        padding-bottom: 32px;
+        font-size:24px;
+        line-height: 24px;
+    }
+
+    .footer__link:nth-last-child(2) {
+        padding-bottom:0;
+
+    }
+}*/
+
+
+@media only screen and (max-width: 321px) {
+    .footer__link {
         padding-bottom: 32px;
         font-size:24px;
         line-height: 24px;

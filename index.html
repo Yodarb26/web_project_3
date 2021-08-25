@@ -4,22 +4,22 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="pages/index.css" />
-        <link rel="stylesheet" href="vendor/normalize.css" />
         <title>From Portland to Portland</title>
     </head>
 
     <body class="page">
         <div class="page__wrapper">
             <header class="header container">
-                <img class="logo" src="./images/logo/logo.png" alt="logo" />
+                <img class="logo" src="./images/logo/logo.svg" alt="logo" />
                 <nav>
                     <ul class="header__languages">
-                        <li class="header__languages-link"><a class="header__lang-link" href="#">Es</a></li>
+                        <li class="header__languages-link"><a class="header__lang-link header__languages_active" href="#">Es</a></li>
                         <li class="header__languages-link"><a class="header__lang-link" href="#">En</a></li>
                     </ul>
                 </nav>
             </header>
 
+            <main>
             <section class="lead">
                 <h1 class="lead__title">From Portland to Portland</h1>
                 <p class="lead__subtitle">An epic bicycle journey from Portland, ME. to Portland, OR</p>
@@ -29,17 +29,17 @@
 
             <section class="intro">
                 <h2 class="intro__title">Know the country you live in a little better</h2>
-                <h3 class="intro__text-primary">That's exactly what we have arranged for you via this travel story</h3>
+                <p class="intro__text-primary">That's exactly what we have arranged for you via this travel story</p>
                 <p class="intro__text-secondary">
                     Need more action and adventure in your life instead of the same old routine? From Portland, Maine to Portland, Oregon we're going to take you on an exciting journey through some unknown regions of your country. Leave the
                     car at home and travel by bike starting in New England where it all began. You will pass through 12 beautiful states, covering a total of 3,600 miles, and accomplish 3 monumental missions. Partying and taking a selfie
                     with a famous rock star, donating $1 to a billionaire to help eradicate polio in Africa, and even stopping by famous author Stephen King's house to say hi and asking him to sign your favorite book.
                 </p>
                 <ul class="intro__list">
-                    <li>Distance (miles) 3644</li>
-                    <li>Travel time (days) 22</li>
-                    <li>Highest point (feet) 9,613</li>
-                    <li>Lowest point (feet) -3</li>
+                    <li><span style="font-weight: bold">Distance (miles)</span>3644</li>
+                    <li><span style="font-weight: bold">Travel time (days)</span> 22</li>
+                    <li><span style="font-weight: bold">Highest point (feet)</span> 9,613</li>
+                        <li><span style="font-weight: bold">Lowest point (feet)</span> -3</li>
                 </ul>
             </section>
 
@@ -63,7 +63,7 @@
                     <h2 class="place__title">Maine</h2>
                     <div class="place__website">
                         <p class="place__url-heading">URL</p>
-                        <a class="place__link" href="https://global.llbean.com">global.llbean.com</a>
+                        <a class="place__link" href="https://global.llbean.com" target = "_blank">global.llbean.com</a>
                     </div>
                     <img class="place__image" src="./images/__image-4.png" alt="Maine" />
                     <div>
@@ -83,7 +83,7 @@
                     <h2 class="place__title">New Hampshire</h2>
                     <div class="place__website">
                         <p class="place__url-heading">URL</p>
-                        <a class="place__link" href="https://www.timberland.com">timberland.com</a>
+                        <a class="place__link" href="https://www.timberland.com" target = "_blank">timberland.com</a>
                     </div>
                     <img class="place__image" src="./images/__image-3.png" alt="New Hampshire" />
                     <div>
@@ -104,7 +104,7 @@
                     <h2 class="place__title">New York</h2>
                     <div class="place__website">
                         <p class="place__url-heading">URL</p>
-                        <a class="place__link" href="https://www.ge.com">ge.com</a>
+                        <a class="place__link" href="https://www.ge.com" target = "_blank">ge.com</a>
                     </div>
                     <img class="place__image" src="./images/__image-2.png" alt="New York" />
                     <div>
@@ -123,7 +123,7 @@
                     <h2 class="place__title">Erie, PA</h2>
                     <div class="place__website">
                         <p class="place__url-heading">URL</p>
-                        <a class="place__link" href="https://fws.gov">fws.gov</a>
+                        <a class="place__link" href="https://fws.gov" target = "_blank">fws.gov</a>
                     </div>
                     <img class="place__image" src="./images/__image-1.png" alt="Erie, PA" />
                     <div>
@@ -143,7 +143,7 @@
                     <h2 class="place__title">Ohio</h2>
                     <div class="place__website">
                         <p class="place__url-heading">URL</p>
-                        <a class="place__link" href="https://www.cedarpoint.com">cedarpoint.com</a>
+                        <a class="place__link" href="https://www.cedarpoint.com" target = "_blank">cedarpoint.com</a>
                     </div>
                     <img class="place__image" src="./images/__image.png" alt="Ohio" />
                     <div>
@@ -153,7 +153,7 @@
                             ROCK your world in Sandusky, Ohio! This will presumably be one of the most thrilling quests you'll ever complete (provided you can stomach it). Take a much-deserved break to ride as many roller coasters as you
                             can before continue your bike ride!
                         </p>
-                        <p class="place__paragraph place__paragraph:last-child">The cost of a daily ticket: about $100.</p>
+                        <p class="place__paragraph">The cost of a daily ticket: about $100.</p>
                     </div>
                 </article>
             </section>
@@ -164,12 +164,21 @@
                     <p class="route__subtitle">The Main Street of America from Santa Monica, Cal. to Chicago, Ill.</p>
                 </div>
             </section>
+        </main>
 
             <footer class="footer">
-                <a href="https://yandex.com/maps" class="footer__link">Maps</a>
-                <a href="https://yandex.com/weather/moscow" class="footer__link">Weather</a>
-                <a href="https://calendar.yandex.ru" class="footer__link">Calendar</a>
-                <p class="footer__copyright">© 2020. Samir Meneceur</p>
+                     <a href="https://yandex.com/maps" class="footer__link">Maps</a>
+                     <a href="https://yandex.com/weather/moscow" class="footer__link">Weather</a>
+                     <a href="https://calendar.yandex.ru" class="footer__link">Calendar</a>
+                     <p class="footer__copyright">© 2020. Samir Meneceur</p>
+                <!--<nav> 
+                    <ul class="footer__nav">
+                     <li><a href="https://yandex.com/maps" class="footer__link">Maps</a></li>
+                     <li><a href="https://yandex.com/weather/moscow" class="footer__link">Weather</a></li>
+                     <li><a href="https://calendar.yandex.ru" class="footer__link">Calendar</a></li>
+                     <li><p class="footer__copyright">© 2020. Samir Meneceur</p></li>
+                   </ul>
+               </nav>-->
             </footer>
         </div>
     </body>
