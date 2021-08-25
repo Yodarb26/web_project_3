@@ -4,7 +4,10 @@
     flex-wrap: wrap;
     width:100%;
     max-width: 1184px;
-    margin: 0 auto;
+    margin: 0;
+    padding:0;
+    list-style: none;
+    justify-content:space-between;
 }
 
 @media only screen and (max-width: 1024px) {
