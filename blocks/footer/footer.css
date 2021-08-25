@@ -1,13 +1,13 @@
 .footer {
     font-family: "Inter", Arial, sans-serif;
-    display: flex;
+    display:flex;
     flex-wrap: wrap;
     width:100%;
     max-width: 1184px;
+    justify-content: space-between;
+    padding: 0;
     margin: 0;
-    padding:0;
     list-style: none;
-    justify-content:space-between;
 }
 
 @media only screen and (max-width: 1024px) {
