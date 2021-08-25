@@ -34,6 +34,7 @@
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 
 @import url(../blocks/route/route.css);
+@import url(../blocks/route/__link/route__link.css);
 @import url(../blocks/route/__inner/route__inner.css);
 @import url(../blocks/route/__overlay/route__overlay.css);
 @import url(../blocks/route/__title/route__title.css);
