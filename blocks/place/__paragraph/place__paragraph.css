@@ -11,7 +11,7 @@
 
 .place__paragraph:last-child {
     margin: 0 auto;
-    padding: 0
+    padding: 0;
 }
 
 @media only screen and (max-width: 1024px) {
