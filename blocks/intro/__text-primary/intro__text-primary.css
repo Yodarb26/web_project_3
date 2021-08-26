@@ -10,7 +10,6 @@
     color: white;
 }
 
-
 @media only screen and (max-width: 768px) {
     .intro__text-primary {
         max-width: 720px;

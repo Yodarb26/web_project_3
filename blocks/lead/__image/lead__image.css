@@ -2,8 +2,6 @@
     width: 100%;
     max-width: 984px;
     margin: 0;
-    /*padding-right: 0;
-    padding-left: 0;*/
     padding: 0;
     align-items: center;
 }
@@ -12,20 +10,17 @@
     .lead__image {
         max-width: 928px;
     }
-
 }
 
 @media only screen and (max-width: 768px) {
     .lead__image {
         max-width: 768px;
     }
-
 }
 
 @media only screen and (max-width: 321px) {
     .lead__image {
         max-width: 320px;
     }
-
 }
 

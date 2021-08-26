@@ -14,26 +14,17 @@
     padding: 0
 }
 
-
 @media only screen and (max-width: 1024px) {
     .place__paragraph {
         max-width: 456px;
     }
-
 }
-
 
 @media only screen and (max-width: 768px) {
     .place__paragraph {
         max-width: 352px;
         font-size: 16px;
     }
-
-    /*
-    .place__paragraph:last-child {
-        padding: 0;
-        min-height: 26px;
-    }*/
 }
 
 @media only screen and (max-width: 321px) {
@@ -42,10 +33,5 @@
         font-size: 16px;
         margin: 0 auto;
     }
-
-    /*
-    .place__paragraph:last-child {
-        padding: 0;
-    }*/
 }
 

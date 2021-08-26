@@ -1,5 +1,9 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/inter/inter.css);
+
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/__element/page__element.css);
+
 @import url(../blocks/container/container.css);
 
 @import url(../blocks/logo/logo.css);
@@ -40,9 +44,6 @@
 @import url(../blocks/route/__overlay/route__overlay.css);
 @import url(../blocks/route/__title/route__title.css);
 @import url(../blocks/route/__subtitle/route__subtitle.css);
-
-@import url(../blocks/page/page.css);
-@import url(../blocks/page/__element/page__element.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
