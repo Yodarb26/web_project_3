@@ -11,10 +11,11 @@
     background-size: cover;
     position: relative;
     z-index: 1;
+    align-items: center;
 }
 
-.route:hover .route__overlay{
-    opacity: 0.8;
+.route:hover {
+    opacity: 0.3;
 }
 
 @media only screen and (max-width: 1024px) {

@@ -6,13 +6,13 @@
     text-decoration: none;
     letter-spacing: 0.2em;
     color: #AAAAAA;
-    margin: 0;
+    margin: 0 0 12px 0;
+    font-size: 12px;
 }
 
 @media only screen and (max-width: 768px) {
     .place__url-heading {
         max-width: 352px;
-        margin: 0 0 12px 0;
         line-height: 22px;
     }
 }
@@ -20,7 +20,7 @@
 @media only screen and (max-width: 321px) {
     .place__url-heading {
         max-width: 288px;
-        margin: 0 0 0 16px;
+        margin: 0 0 12px 16px;
     }
 }
 

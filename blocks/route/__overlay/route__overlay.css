@@ -11,3 +11,7 @@
   z-index: -1;
   transition: opacity 350ms;
 }
+
+.route__overlay {
+  opacity: 0.8;
+}
