@@ -1,5 +1,7 @@
 .place__url-heading {
     width:100%;
+    font-size: 12px;
+    margin: 0 0 12px 0;
     font-style: normal;
     font-weight: normal;
     line-height: 170%;
@@ -12,7 +14,6 @@
 @media only screen and (max-width: 768px) {
     .place__url-heading {
         max-width: 352px;
-        margin: 0 0 12px 0;
         line-height: 22px;
     }
 }
