@@ -19,7 +19,7 @@ The way you'll do this at work is by exporting images directly from Figma — we
 
 **Github**
 
-* [Link to the project on Github](https://github.com/Yodarb26/web_project_3.git)
+* [Link to the project on Github](https://yodarb26.github.io/web_project_3/)
 
 
 Good luck and have fun!
