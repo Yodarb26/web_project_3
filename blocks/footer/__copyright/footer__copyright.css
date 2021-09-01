@@ -9,6 +9,7 @@
     list-style: none;
     padding:0;
     margin: 0 0 24px 0;
+    text-align: right;
 }
 
 @media only screen and (max-width: 1024px) {
