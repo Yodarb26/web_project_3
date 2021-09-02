@@ -1,5 +1,7 @@
 .route {
     display: flex;
+    justify-content: center;
+    flex-direction:column;
     width: 100%;
     max-width: 1184px;
     margin: 0 auto 94px auto;
