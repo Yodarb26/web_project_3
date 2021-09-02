@@ -9,7 +9,6 @@
     margin: 0 auto;
     text-decoration: none;
     list-style: none;
-    background-color: red;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -26,8 +25,8 @@
 
 @media only screen and (max-width: 321px) {
     .footer {
-        max-width: 165px;
-        margin: 0 auto 0 16px;
+        width:100%;
+        margin: 0 auto;
     }
 }
 
