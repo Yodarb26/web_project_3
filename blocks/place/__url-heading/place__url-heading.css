@@ -1,5 +1,5 @@
 .place__url-heading {
-    width:100%;
+    width: 100%;
     font-size: 12px;
     margin: 0 0 12px 0;
     font-style: normal;
@@ -7,7 +7,7 @@
     line-height: 170%;
     text-decoration: none;
     letter-spacing: 0.2em;
-    color: #AAAAAA;
+    color: #aaaaaa;
 }
 
 @media only screen and (max-width: 768px) {
@@ -23,4 +23,5 @@
         margin: 0 0 0 16px;
     }
 }
+
 

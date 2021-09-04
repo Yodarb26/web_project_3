@@ -1,9 +1,9 @@
 .footer__container {
-    padding-left:0;
+    padding-left: 0;
 }
 
 @media only screen and (max-width: 321px) {
     .footer__container {
-     padding-left: 16px;
+        padding-left: 16px;
     }
 }

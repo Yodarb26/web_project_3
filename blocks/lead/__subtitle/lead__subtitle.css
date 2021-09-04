@@ -8,7 +8,7 @@
     line-height: 36px;
     text-align: center;
     color: #ffffff;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -25,4 +25,3 @@
         line-height: 20px;
     }
 }
-

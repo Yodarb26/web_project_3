@@ -1,9 +1,9 @@
 .place__website {
     margin: 0 auto;
     width: 100%;
-    align-self:end;
+    align-self: end;
 }
 
 .place__website:hover {
-    color: #AAAAAA;
+    color: #aaaaaa;
 }

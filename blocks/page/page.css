@@ -1,6 +1,6 @@
 .page {
     width: 100%;
-    max-width:1184px;
+    max-width: 1184px;
     background: #2a2c2f;
     margin: 0 auto;
     height: auto;
@@ -11,4 +11,5 @@
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
 }
+
 

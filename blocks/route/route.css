@@ -1,7 +1,7 @@
 .route {
     display: flex;
     justify-content: center;
-    flex-direction:column;
+    flex-direction: column;
     width: 100%;
     max-width: 1184px;
     margin: 0 auto 94px auto;
@@ -15,7 +15,7 @@
     z-index: 1;
 }
 
-.route:hover .route__overlay{
+.route:hover .route__overlay {
     opacity: 0.8;
 }
 
@@ -24,7 +24,6 @@
         max-width: 1024px;
         min-height: 640px;
     }
-
 }
 
 @media only screen and (max-width: 768px) {
@@ -41,7 +40,6 @@
         margin: 0 0 64px 0;
         min-height: 200px;
     }
+}
 
-    }
-    
 
