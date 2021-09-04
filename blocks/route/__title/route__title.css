@@ -1,6 +1,5 @@
 .route__title {
     width: 100%;
-    display: flex;
     max-width: 656px;
     font-style: normal;
     font-weight: 900;
@@ -18,5 +17,4 @@
         text-align: center;
     }
 }
-
 
