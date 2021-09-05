@@ -37,4 +37,4 @@ It consists on builiding a webpage based on Figmas's designer visual example and
 -Visual styling 
 
 -It's built with HTML and CSS only
--BEM is the norm for writing code good practice.
+-BEM is the method used for writing code and good practice.
