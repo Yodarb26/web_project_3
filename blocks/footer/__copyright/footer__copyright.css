@@ -1,4 +1,6 @@
 .footer__copyright {
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
     font-style: normal;
     font-weight: normal;
@@ -20,7 +22,7 @@
 @media only screen and (max-width: 321px) {
     .footer__copyright {
         margin: 0;
-        padding: 16px 16px 16px 0px;
+        padding: 16px 16px 24px 16px;
         text-align: left;
         
     }
